@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: itcast-haoke-manage-api-server
+server:
+  port: 8081
+
+dubbo:
+  application:
+    name: dubbo-provider-house-resources
+  registry:
+    address: zookeeper://1.15.97.32:2181
+    client: zkclient
+

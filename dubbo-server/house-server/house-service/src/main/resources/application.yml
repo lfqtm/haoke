@@ -1,0 +1,23 @@
+server:
+  port: 9090
+spring:
+  application:
+    name: haoke-manage-house-server
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://1.15.97.32:3306/haoke?useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowMultiQueries=true&useSSL=false
+    username: root
+    password: root
+
+dubbo:
+  scan:
+    base-packages: cn.itacst.haoke.dubbo.house.api
+  application:
+    name: dubbo-provider-house-resources
+  protocol:
+    name: dubbo
+    port: 20881
+  registry:
+    address: zookeeper://1.15.97.32:2181
+    client: zkclient
+
