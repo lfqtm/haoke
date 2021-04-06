@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="27292d80-ebec-49a9-afe7-eb867c1b1f6b" name="Default Changelist" comment="" />
+    <list default="true" id="27292d80-ebec-49a9-afe7-eb867c1b1f6b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/api-server/src/main/java/cn/itcast/haoke/dubbo/api/controller/PicUploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-server/src/main/java/cn/itcast/haoke/dubbo/api/service/PicUploadFileSystemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-server/src/main/java/cn/itcast/haoke/dubbo/api/vo/PicUploadResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,9 +26,9 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="$USER_HOME$/app/maven/repositories" />
-        <option name="mavenHome" value="$USER_HOME$/app/maven/apache-maven-3.6.3" />
-        <option name="userSettingsFile" value="$USER_HOME$/app/maven/apache-maven-3.6.3/conf/settings.xml" />
+        <option name="localRepository" value="D:\BackUp\jar\maven_repository" />
+        <option name="mavenHome" value="D:/BackUp/jar/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\BackUp\jar\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -49,7 +55,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
@@ -66,7 +72,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.DubboApiApplication">
+  <component name="RunManager" selected="Spring Boot.DubboProvider">
     <configuration name="CodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.itcast.dubbo.server.CodeGenerator" />
       <module name="auto-generator" />
@@ -122,8 +128,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.DubboApiApplication" />
         <item itemvalue="Spring Boot.DubboProvider" />
+        <item itemvalue="Spring Boot.DubboApiApplication" />
         <item itemvalue="Application.CodeGenerator" />
       </list>
     </recent_temporary>
@@ -142,7 +148,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -176,11 +182,32 @@
       <workItem from="1616230969409" duration="5723000" />
       <workItem from="1616240324280" duration="2251000" />
       <workItem from="1616312078152" duration="367000" />
+      <workItem from="1616312940028" duration="427000" />
+      <workItem from="1616313407806" duration="1112000" />
+      <workItem from="1616337504867" duration="1217000" />
+      <workItem from="1616776056933" duration="688000" />
+      <workItem from="1616813431180" duration="617000" />
+      <workItem from="1616937654256" duration="400000" />
+      <workItem from="1616940488040" duration="666000" />
+      <workItem from="1617022281811" duration="3576000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="497" y="234" key="#Notifications" timestamp="1616228114660">
@@ -211,50 +238,64 @@
       <screen x="0" y="25" width="1869" height="1055" />
     </state>
     <state x="1218" y="421" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.25.1869.1055@0.25.1869.1055" timestamp="1616235562450" />
-    <state width="1241" height="456" key="GridCell.Tab.0.bottom" timestamp="1616299146789">
-      <screen x="0" y="25" width="1869" height="1055" />
+    <state x="1361" y="311" key="FileChooserDialogImpl" timestamp="1616938044342">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="1361" y="311" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1616938044342" />
+    <state width="1523" height="540" key="GridCell.Tab.0.bottom" timestamp="1616779084203">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1523" height="540" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616779084203" />
     <state width="1241" height="456" key="GridCell.Tab.0.bottom/0.25.1869.1055@0.25.1869.1055" timestamp="1616299146789" />
-    <state width="1241" height="456" key="GridCell.Tab.0.center" timestamp="1616299146788">
-      <screen x="0" y="25" width="1869" height="1055" />
+    <state width="1523" height="540" key="GridCell.Tab.0.center" timestamp="1616779084203">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1523" height="540" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616779084203" />
     <state width="1241" height="456" key="GridCell.Tab.0.center/0.25.1869.1055@0.25.1869.1055" timestamp="1616299146788" />
-    <state width="1241" height="456" key="GridCell.Tab.0.left" timestamp="1616299146788">
-      <screen x="0" y="25" width="1869" height="1055" />
+    <state width="1523" height="540" key="GridCell.Tab.0.left" timestamp="1616779084203">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1523" height="540" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616779084203" />
     <state width="1241" height="456" key="GridCell.Tab.0.left/0.25.1869.1055@0.25.1869.1055" timestamp="1616299146788" />
-    <state width="1241" height="456" key="GridCell.Tab.0.right" timestamp="1616299146789">
-      <screen x="0" y="25" width="1869" height="1055" />
+    <state width="1523" height="540" key="GridCell.Tab.0.right" timestamp="1616779084203">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1523" height="540" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616779084203" />
     <state width="1241" height="456" key="GridCell.Tab.0.right/0.25.1869.1055@0.25.1869.1055" timestamp="1616299146789" />
-    <state width="1241" height="456" key="GridCell.Tab.1.bottom" timestamp="1616299146789">
-      <screen x="0" y="25" width="1869" height="1055" />
+    <state width="1523" height="540" key="GridCell.Tab.1.bottom" timestamp="1616779084204">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1523" height="540" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616779084204" />
     <state width="1241" height="456" key="GridCell.Tab.1.bottom/0.25.1869.1055@0.25.1869.1055" timestamp="1616299146789" />
-    <state width="1241" height="456" key="GridCell.Tab.1.center" timestamp="1616299146789">
-      <screen x="0" y="25" width="1869" height="1055" />
+    <state width="1523" height="540" key="GridCell.Tab.1.center" timestamp="1616779084203">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1523" height="540" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616779084203" />
     <state width="1241" height="456" key="GridCell.Tab.1.center/0.25.1869.1055@0.25.1869.1055" timestamp="1616299146789" />
-    <state width="1241" height="456" key="GridCell.Tab.1.left" timestamp="1616299146789">
-      <screen x="0" y="25" width="1869" height="1055" />
+    <state width="1523" height="540" key="GridCell.Tab.1.left" timestamp="1616779084203">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1523" height="540" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616779084203" />
     <state width="1241" height="456" key="GridCell.Tab.1.left/0.25.1869.1055@0.25.1869.1055" timestamp="1616299146789" />
-    <state width="1241" height="456" key="GridCell.Tab.1.right" timestamp="1616299146789">
-      <screen x="0" y="25" width="1869" height="1055" />
+    <state width="1523" height="540" key="GridCell.Tab.1.right" timestamp="1616779084203">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1523" height="540" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616779084203" />
     <state width="1241" height="456" key="GridCell.Tab.1.right/0.25.1869.1055@0.25.1869.1055" timestamp="1616299146789" />
     <state x="566" y="295" key="IDE.errors.dialog" timestamp="1616225505509">
       <screen x="0" y="25" width="1869" height="1055" />
     </state>
     <state x="566" y="295" key="IDE.errors.dialog/0.25.1869.1055@0.25.1869.1055" timestamp="1616225505509" />
-    <state x="647" y="220" key="SettingsEditor" timestamp="1616312446303">
-      <screen x="0" y="25" width="1629" height="1025" />
+    <state x="459" y="149" key="SettingsEditor" timestamp="1617025161872">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="459" y="149" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1617025161872" />
     <state x="647" y="220" key="SettingsEditor/0.25.1629.1025@0.25.1629.1025" timestamp="1616312446303" />
     <state x="887" y="226" key="SettingsEditor/0.25.1869.1055@0.25.1869.1055" timestamp="1616239596486" />
-    <state x="643" y="450" key="new project wizard" timestamp="1616166509852">
-      <screen x="0" y="25" width="1869" height="1055" />
+    <state x="661" y="419" key="new project wizard" timestamp="1616938040598">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="661" y="419" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1616938040598" />
     <state x="643" y="450" key="new project wizard/0.25.1869.1055@0.25.1869.1055" timestamp="1616166509852" />
     <state x="861" y="311" width="670" height="676" key="search.everywhere.popup" timestamp="1616239315449">
       <screen x="0" y="25" width="1869" height="1055" />
